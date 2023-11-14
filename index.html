@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">  
+    <title>Typing Speed Test Game</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div class="game-wrapper">
+      <input type="text" class="user-input">
+      <div class="game-content">
+        <div class="typing-prompt">
+          <p></p>
+        </div>
+        <div class="game-stats">
+          <ul class="stats-details">
+            <li class="remaining-time">
+              <p>Time Left:</p>
+              <span><b>60</b>s</span>
+            </li>
+            <li class="error-count">
+              <p>Mistakes:</p>
+              <span>0</span>
+            </li>
+            <li class="words-per-minute">
+              <p>WPM:</p>
+              <span>0</span>
+            </li>
+            <li class="characters-per-minute">
+              <p>CPM:</p>
+              <span>0</span>
+            </li>
+          </ul>
+          <button>Restart Game</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/typingPrompts.js"></script>
+    <script src="js/gameLogic.js"></script>
+  
+  </body>
+</html>
